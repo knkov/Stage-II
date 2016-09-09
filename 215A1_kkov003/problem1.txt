@@ -1,0 +1,18 @@
+
+  CS215 Assignment One 2013
+  Name:Ksenia Kovaleva
+  Id:4716583
+  upi:kkov003
+
+Question1 Usage:
+ 
+
+Question1.java is a program that simulates First Come First Serve, Round Robin, and Shortest Time Remaining job scheduling algorithms and prints out turnaround and waiting time statistics for all the jobs.
+
+The programs takes in arguments from the command line. The first argument is an input file, second is algorithm type and the last argument specifies a time quantum. It is only used if the scheduling algorithm is Round Robin.
+
+The input file is a file that contains job information.It is already sorted by job arrival time.Each job's information is on a separate line.The job information consists of integer values - process Id, arrival time and CPU time,in that order and are delimited by a comma.
+ 
+The main method in Question1.java reads the arguments supplied and the input file,then runs the appropriate scheduling algorithm on the jobs contained in that file.
+ 
+It then prints out the results of turnaround and waiting time for each job, and the average turnaround and waiting time for all the jobs in a table.
